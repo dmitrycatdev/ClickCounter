@@ -23,9 +23,7 @@ namespace KnopkaSooqa
 
             if (counter % 1000 == 0) button.TextColor = Color.Gold;
             else if (counter % 100 == 0) button.TextColor = Color.Green;
-            else if (counter % 10 == 0) button.TextColor = Color.Red;
             else button.TextColor = Color.Black;
-           // counter++;
         }
     }
 }
